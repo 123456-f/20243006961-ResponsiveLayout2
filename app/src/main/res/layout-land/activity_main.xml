@@ -20,3 +20,53 @@
             android:textSize="20sp"
             android:gravity="center"
             android:padding="16dp"/>
+
+        <!--白色块：Responsive Layout 1-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Responsive Layout 1"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="#FFFFFF"
+            android:padding="24dp"/>
+
+        <!--水平LinearLayout：4个等分彩色块-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="This"
+                android:gravity="center"
+                android:background="#ff0000"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="is"
+                android:gravity="center"
+                android:background="#0000ff"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="my"
+                android:gravity="center"
+                android:background="#8040b0"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="first"
+                android:gravity="center"
+                android:background="#ffff00"/>
+        </LinearLayout>
+    </LinearLayout>
