@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.practical1_part1"
+    namespace = "com.example.practical2"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
